@@ -1,0 +1,19 @@
+{
+  "name": "dombuilder",
+  "main": "dombuilder.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/Jaromudr/dombuilder",
+  "description": "Helper for building DOM tree",
+  "authors": [
+    "Vladimir Myskov",
+    "Vitaliy Yaroviy"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
