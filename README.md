@@ -32,4 +32,20 @@ dom("ul", {}, [                             // <ul>
     dom("li", {innerHTML: "Second"}),       //      <li>Second</li>
     dom("li", {innerHTML: "Third"})         //      <li>Third</li>
 ])                                          // </ul>
-```    
+``` 
+
+  - Immediately mapping to js variable
+
+ ```
+content = dom(".content", {}, [
+    dom(".image-navigation", {}, [
+        rotateLeftButton = dom("i.fa.fa-rotate-left"),
+        rotateRightButton = dom("i.fa.fa-rotate-right"),
+        zoomInButton = dom("i.fa.fa-plus-circle"),
+        zoomOutButton = dom("i.fa.fa-minus-circle")
+    ])
+]);
+
+this.rotateLeftButton.addEventListener(events.start, function(){});
+
+ ```   
