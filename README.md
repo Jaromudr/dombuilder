@@ -36,7 +36,7 @@ dom("ul", {}, [                             // <ul>
 
   - Immediately mapping to js variable
 
- ```
+```
 content = dom(".content", {}, [
     dom(".image-navigation", {}, [
         rotateLeftButton = dom("i.fa.fa-rotate-left"),
@@ -48,4 +48,4 @@ content = dom(".content", {}, [
 
 this.rotateLeftButton.addEventListener(events.start, function(){});
 
- ```   
+```   
