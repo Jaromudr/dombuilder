@@ -46,6 +46,6 @@ content = dom(".content", {}, [
     ])
 ]);
 
-this.rotateLeftButton.addEventListener(events.start, function(){});
+rotateLeftButton.addEventListener(events.start, function(){});
 
 ```   
