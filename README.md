@@ -27,7 +27,7 @@ dom(#id.class1.class2)                      // <div id="id" class="class1 class2
   - Nested elements
 
 ```
-dom("ul", {}, [                             // <ul>
+dom("ul", [                             // <ul>
     dom("li", "First"),                     //      <li>First</li>
     dom("li", {innerHTML: "Second"}),       //      <li>Second</li>
     dom("li", "Third")                      //      <li>Third</li>
@@ -37,8 +37,8 @@ dom("ul", {}, [                             // <ul>
   - Immediately mapping to js variable
 
 ```
-content = dom(".content", {}, [
-    dom(".image-navigation", {}, [
+content = dom(".content", [
+    dom(".image-navigation", [
         rotateLeftButton = dom("i.fa.fa-rotate-left"),
         rotateRightButton = dom("i.fa.fa-rotate-right"),
         zoomInButton = dom("i.fa.fa-plus-circle"),
