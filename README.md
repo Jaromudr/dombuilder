@@ -28,9 +28,9 @@ dom(#id.class1.class2)                      // <div id="id" class="class1 class2
 
 ```
 dom("ul", {}, [                             // <ul>
-    dom("li", {innerHTML: "First"}),        //      <li>First</li>
+    dom("li", "First"),                     //      <li>First</li>
     dom("li", {innerHTML: "Second"}),       //      <li>Second</li>
-    dom("li", {innerHTML: "Third"})         //      <li>Third</li>
+    dom("li", "Third")                      //      <li>Third</li>
 ])                                          // </ul>
 ``` 
 
