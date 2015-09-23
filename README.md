@@ -1,5 +1,6 @@
 Dombuilder
 =========
+<!-- docs-insert:+ -->
 
 dom(selector, [attributes, [nested]])
 
